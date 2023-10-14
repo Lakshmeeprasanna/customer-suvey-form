@@ -1,0 +1,103 @@
+body{
+    
+    font-family:Tahoma,Arial;
+    font-size:15px;
+    background-color:cadetblue;
+    
+    }
+    
+h1,p{
+    margin:20px auto;
+    text-align:center;
+    
+    }
+p   {
+    
+     line-height:30px;
+     font-size:19px;
+    }
+p,h1,label{
+     color:#d9d9d9;
+    }
+form{
+     width:55%;
+     margin-left:auto;
+     margin-right:auto;
+     background-color:rgba(204, 204, 204,0.1);
+     padding-bottom:30px;
+    
+    }
+.radio_css{
+     display:block;
+     font-size:0.98rem;
+    }
+.checkbox_css{
+     font-size:0.98rem;
+    }
+fieldset{
+     margin:0 2rem;
+     border:none;
+    }
+    
+    
+    
+label{
+    display:block;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:18px;
+    
+    }
+    
+input,textarea,#dropdown{
+     display:block;
+     margin:8px 0;
+     width:100%;
+     padding-top:5px;
+     padding-bottom:5px;
+     background-color:#f2f2f2;
+     padding-left:8px;
+    
+    }
+    
+#dropdown{
+        
+        padding:5px 0;
+         margin-top:17px;
+    }
+    
+input[type="radio"],input[type="checkbox"]{
+     display:unset;
+     width:unset;
+     margin-right:5px;
+    
+    }
+    
+input[type="submit"]{
+     width:20%;
+     padding:8px 8px;
+     font-size:17px;
+     background-color:rgba(155,52,19,0.7);
+     border:none;
+     border-radius:28px;
+     font-weight:bold;
+     text-align:center;
+     margin-left:auto;
+     margin-right:auto;
+     
+     
+    }
+input[type="reset"]{
+        width:20%;
+        padding:8px 8px;
+        font-size:17px;
+        background-color:rgba(15, 155, 76, 0.7);
+        border:none;
+        border-radius:28px;
+        font-weight:bold;
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
+        
+        
+       }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey form</title> 
+<link rel="stylesheet" href="cust.css">
+</head>
+<body>
+   <h1 id="title">Customer Survey Form</h1>
+   <p id="description">Thank you for buying our products.To help us maintain a high quality of service, please provide us with feedback by filling in the information below </p>
+
+<form action="" id="survey-form">
+  <fieldset>
+       <label id="name-label">Name <input type="text" required placeholder="Enter your name" id="name"></label>
+
+       <label id="email-label">Email <input type="email" required placeholder="Enter your Email" id="email"></label>
+       
+       <label id="number-label">Age<input type="number" id="number" placeholder="Enter your age"required min=13 max=100 />       </label>
+   </fieldset>
+
+  <fieldset> 
+	     <label>
+	        How likely is that you recommend our products to your friends?
+	          <label class="radio_css">  <input type="radio" name="recommendation" value="1"> Definitely 
+	          </label>
+	          <label class="radio_css">
+	            <input type="radio" name="recommendation"value="2"> Not Sure
+	          </label>
+	          <label class="radio_css">  
+	        <input type="radio" name="recommendation" value="3"> May Be
+	        </label>
+	      </label>  
+   </fieldset>
+   
+   <fieldset>  
+	      <label>Is this first time you are using my products &services?  
+	        <select id="dropdown">
+	            <option value="0">Select an Option</option>
+	            <option value="1">Yes</option>
+	            <option value="2">No</option>
+	            
+	        </select>  
+	      </label>
+     </fieldset>
+
+     <fieldset>  
+        <label>Would you suggest to your friends and collegues?  
+          <select id="dropdown">
+              <option value="0">Select an Option</option>
+              <option value="1">Yes</option>
+              <option value="2">No</option>
+              
+          </select>  
+        </label>
+   </fieldset>
+
+   <fieldset>  
+    <label>How satisfied are you with our company overall?  
+      <select id="dropdown">
+          <option value="0">Select an Option</option>
+          <option value="1">Satisfied</option>
+          <option value="2">Not Stisfied</option>
+          <option value="3">Undecided</option>
+          
+      </select>  
+    </label>
+    </fieldset>
+
+     <fieldset>
+	      <label>What would you like to see improved? (Check all that apply)
+	
+	         <label class="checkbox_css"><input type="checkbox" value="1">Staff</label>
+	         <label class="checkbox_css"><input type="checkbox" value="2">Quality of product</label>
+	         
+	         <label class="checkbox_css"><input type="checkbox" value="4">Pricing</label>
+	         <label class="checkbox_css"><input type="checkbox" value="5">Ease of Ordering</label>
+             <label class="checkbox_css"><input type="checkbox" value="4">All are good</label>
+	      </label>
+	      <label>Any Comments or Suggestions?<textarea rows="8" cols=40 placeholder="Enter your comments/suggestions here..."></textarea>
+   </fieldset>  
+   <input type="submit" value="Submit" id="submit">
+   <input type="reset" value="Reset" id="reset">
+ </form> 
+</body>
+
+</html>
